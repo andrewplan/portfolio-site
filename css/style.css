@@ -15,7 +15,6 @@ header {
     color:  white;
     background-image: url("https://images.unsplash.com/reserve/D8ijGd3CSGq4BxJ9EzTf_13976945916_fa0ce84ee3_o.jpg?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=8b802edc366050236570a281a7c808ad");
     background-size: cover;
-    display:inline-block;
     margin-top: -2em;
 }
 
@@ -52,12 +51,13 @@ header {
 
 .mid-banner {
     height: 435px;
-    background-image: url("https://images.unsplash.com/reserve/D8ijGd3CSGq4BxJ9EzTf_13976945916_fa0ce84ee3_o.jpg?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=8b802edc366050236570a281a7c808ad");
+    background-image: url("https://images.unsplash.com/photo-1452723312111-3a7d0db0e024?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=774e99d16e3f3f0e4138be9d98e4f0f9");
     background-size: cover;
     margin-top: -3em;
 }
 
 .mid-banner-text {
+    position: relative;
     padding-top: 2.5em;
     font-size: 4em;
     color: #FFEC02;
@@ -69,10 +69,10 @@ header {
 
 @keyframes titleAnimation {
     from {
-        bottom: 0px;
+        padding-top: 5em;
     }
     to {
-        bottom: 217.5px;
+        padding-top: 2.5em;
     }
 }
 
